@@ -67,31 +67,42 @@
         </div>
       </section>
 
-      <section class="block block-navy" id="academy" aria-labelledby="featured-title">
+      <section class="block squad" id="squad" aria-labelledby="squad-title">
         <div class="wrap">
-          <h2 id="featured-title" class="block-title">Featured</h2>
-          <div class="feature-grid reveal">
-            <a class="feature" href="#training">
-              <img src="/images/student_playing.jpg" alt="A player in a black shirt driving the ball across a dusty training pitch" loading="lazy" />
-              <div class="feature-copy">
-                <p>Training</p>
-                <h3>Every touch counts</h3>
-                <span class="pill pill-light">See how we train</span>
-              </div>
-            </a>
-            <a class="feature" href="#players">
-              <img src="/images/hopefc_student_happy.jpg" alt="A smiling young player sitting on the sand in orange boots" loading="lazy" />
-              <div class="feature-copy">
-                <p>Our players</p>
-                <h3>Built in Delta State</h3>
-                <span class="pill pill-light">Meet the squad</span>
-              </div>
-            </a>
+          <div class="squad-head">
+            <div>
+              <h2 id="squad-title" class="display display-md">Meet the<br />squad</h2>
+              <p class="squad-sub">One team. One shirt. Every player counts.</p>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-btn" type="button" data-dir="-1" aria-label="Previous photo" aria-controls="squad-track">&larr;</button>
+              <button class="slider-btn" type="button" data-dir="1" aria-label="Next photo" aria-controls="squad-track">&rarr;</button>
+            </div>
+          </div>
+          <div class="slider-track reveal" id="squad-track" tabindex="0" role="region" aria-label="Squad photos">
+            <figure class="slide">
+              <img src="/images/hopefc_team_photo.jpg" alt="The Hope FC squad in blue kits smiling and posing together on the training field" width="1080" height="810" loading="lazy" />
+            </figure>
+            <figure class="slide">
+              <img src="/images/hopefc_trio.jpg" alt="Three Hope FC players on the sandy pitch, two in blue kits with arms folded and one in a white number 1 shirt giving thumbs up" width="810" height="1080" loading="lazy" />
+            </figure>
+            <figure class="slide">
+              <img src="/images/hopefc_student_thumbs_up.jpg" alt="A Hope FC player in the number 32 shirt giving two thumbs up" width="810" height="1080" loading="lazy" />
+            </figure>
+            <figure class="slide">
+              <img src="/images/hopefc_squad_thumbs_up.jpg" alt="Seven Hope FC players lined up on a turf pitch giving thumbs up, with a ball at their feet" width="1009" height="1080" loading="lazy" />
+            </figure>
+            <figure class="slide">
+              <img src="/images/hopefc_student_happy.jpg" alt="A smiling young player sitting on the sand in orange boots" width="1920" height="2560" loading="lazy" />
+            </figure>
+            <figure class="slide">
+              <img src="/images/student_playing.jpg" alt="A player in a black shirt driving the ball across a dusty training pitch" width="960" height="1280" loading="lazy" />
+            </figure>
           </div>
         </div>
       </section>
 
-      <section class="statement" aria-label="Academy mission">
+      <section class="statement" id="academy" aria-label="Academy mission">
         <div class="wrap">
           <p class="display statement-text">More than a game.<br /><span>A pathway.</span></p>
           <p class="statement-sub">Hope FC Academy trains young footballers at Jeddo Primary School Field. We focus on honest practice, good decisions, and a team that lifts each other up.</p>
